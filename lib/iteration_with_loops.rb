@@ -9,7 +9,7 @@ while row_index < src.count do
     results << src[row_index][element_index]
     element_index += 1
   else
-    prints src
+    src[row_index][element_index].pop
   end
   end
   row_index += 1
