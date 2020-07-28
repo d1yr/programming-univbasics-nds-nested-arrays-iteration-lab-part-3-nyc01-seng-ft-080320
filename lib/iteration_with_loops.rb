@@ -2,7 +2,7 @@ def join_nested_strings(src)
 results = []
 src.each{|array|
 array.each{|k|
-results << src[array][k]
+if k!=i
 }
 }
 end
