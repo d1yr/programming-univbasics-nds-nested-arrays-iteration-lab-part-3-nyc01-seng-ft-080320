@@ -11,7 +11,6 @@ while row_index < src.count do
   row_index += 1
 end
 results.grep
-end
 results.to_s 
 end
  # src will be an Array of Arrays of Strings and Integers
