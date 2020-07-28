@@ -1,7 +1,6 @@
 def join_nested_strings(src)
 results = []
 results << src.each
-end
 src.each
 end
  # src will be an Array of Arrays of Strings and Integers
