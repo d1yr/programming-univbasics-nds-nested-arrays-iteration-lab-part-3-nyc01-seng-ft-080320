@@ -1,11 +1,11 @@
 def join_nested_strings(src)
 results = []
-total = 0
+count = 0
 row_index = 0
-while row_index < guessing_game_grid.count do
+while row_index < src.count do
   element_index = 0
-  while element_index < guessing_game_grid[row_index].count do
-    total += guessing_game_grid[row_index][element_index]
+  while element_index < src[row_index].count do
+    results += src[row_index][element_index]
     element_index += 1
   end
   row_index += 1
